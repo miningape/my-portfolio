@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miningape/my-portfolio.git"
+  },
+  "author": "kyle johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miningape/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/miningape/my-portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
