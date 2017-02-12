@@ -38,7 +38,7 @@ app.get('/login', function (req, res, next) {
 	}
 });
 
-app.get('/admin-page', auth(), function (req, res, next) {
+app.get('/admin-page', auth, function (req, res, next) {
 	if (loggedIn) {
 		res.sendFile(__dirname + "/webpages/admin-page.html");
 	} else {
