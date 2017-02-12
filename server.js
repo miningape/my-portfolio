@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 app.get('/', function (req, res, next) {
 	res.sendFile(__dirname + "/webpages/index.html");
-	console.log("Visitor: " + ++visitor)
+	console.log("Visitor: " + ++visitor, req.connection.remoteAddress);
 });
 
 app.get('/code', function (req, res, next) {
