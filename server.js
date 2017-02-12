@@ -41,7 +41,7 @@ app.get('/admin-page', function (res, req, next) {
 	if (loggedIn) {
 		res.sendFile(__dirname + "/webpages/admin-page");
 	} else {
-		res.sendFile(__dirname + "/webpages/login-page")
+		res.sendFile(__dirname + "/webpages/login-page");
 	}
 });
 
