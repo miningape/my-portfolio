@@ -25,6 +25,10 @@ app.get('/contact', function (req, res, next) {
 	res.sendFile(__dirname + "/webpages/contact.html");
 });
 
+app.get('/picture', function (req, res, next) {
+	res.sendFile(__dirname + "/webpages/picture.html");
+});
+
 app.get('/login', function (req, res, next) {
 	response = {
 		username: req.query.username,
